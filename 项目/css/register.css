@@ -1,0 +1,323 @@
+html,body,ul,li,a,div,h2,h1,h3,h4,h5,strong,button,dl,dt,dd,p{
+    padding:0;
+    margin:0;
+    list-style:none;
+    font-size: 12px;
+    color:#5d5d5d;
+    font-family: "微软雅黑";
+    text-decoration: none;
+}
+a img{
+    border:0;
+}
+
+                                                                    /*页面头部*/
+.header{
+    width:100%;
+    height:70px;
+    background:#323131;
+}
+.header_center{
+    width:1200px;
+    height:70px;
+    margin:0 auto;
+}
+.header_center ul{
+    height:70px;
+    float: right;
+}
+.header_center ul li{
+    float: left;
+    margin-right: 25px;
+    line-height: 70px;
+}
+.header_center ul li a{
+    font-size: 14px;
+    color:#999;
+}
+.header_center ul li:hover a{
+    color:#e6c45e;   
+}
+        
+                                                                        /*页面中部*/
+.banner{
+    width:100%;
+    height:760px;
+    background:#fdf8f4;
+}
+.banner_center{
+    width:1200px;
+    margin: 0 auto;
+    height:760px;
+    position:relative;
+}
+/* 注册框 */
+.register_text{
+    width:380px;
+    background:#fff;
+    position:absolute;
+    top:100px;
+    right:0;
+    box-shadow: 3px 3px 9px #999;
+    padding-top:35px;
+}
+.register_text ul{
+   width:310px;
+   margin:0 auto;
+}
+.regHead{
+    height:40px;
+}
+.regHead span{
+    display:block;
+    width:60px;
+    height:40px;
+    float:left;
+    font:12px/40px "微软雅黑";
+    color:#5d5d5d;
+}
+.regHead .alert{
+    float:right;
+    width:240px;
+    height:40px;
+}
+.regHead .alert label{
+    display:block;
+    height:40px;
+    float:right;
+    font:14px/40px "微软雅黑";
+    color:#999;
+}
+.regContent{
+    display:block;
+    width:308px;
+    height:40px;
+    outline:none;
+    border:1px solid #dedede;
+}
+.changeWordInput{
+    width:120px;
+    height:40px;
+    border:1px solid #dedede;
+    outline:none;
+}
+.changeWord{
+    width:120px;
+    height:40px;
+    border:1px solid #dedede;
+    outline:none;
+    cursor:pointer;
+    font-size:14px;
+    color:red;
+}
+.chack{
+    clear:both;
+    float:left;
+    margin-left:35px;
+    display:block;
+    width:12px;
+    height:12px;
+    margin-top:18px ;
+}
+.VIP{
+    float:left;
+    margin:14px 0 10px 36px;
+}
+.register_text button{
+    width:310px;
+    height:40px;
+    background:#f19108;
+    margin-left: 35px;
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 14px;
+}
+.agree{
+    float:left;
+    margin-left: 35px;
+    margin-top: 4px;
+}
+.agreement{
+    color:#999;
+    margin-left: 6px;
+    float:left;cursor: pointer;
+    margin-bottom: 20px;
+}
+.already{
+    margin-left: 35px;
+    margin-bottom: 30px;
+    float:left;
+}
+.login_a{
+    color:#F19108;
+}
+
+                                                            /*页面底部*/
+
+.footer{
+    width:100%;
+    height:212px;
+    background:#fff;
+}
+.footer_center{
+    width:1200px;
+    height:212px;
+    background:#fff;
+    position:relative;
+    margin:0 auto;
+}
+.wechat{
+    width:80px;
+    height:107px;
+    position:absolute;
+    top:20px;
+    right:0px;
+}
+.wechat p{
+    width:80px;
+    text-align:center;
+    color:#000;
+}
+.wechat img{
+    width:80px;
+    height:80px;
+}
+.footer_dl{
+    z-index: 2;
+    position:absolute;
+}
+.footer_dl dl{
+    float:left;
+    margin-right:100px;
+    margin-left:20px;
+}
+.footer_dl dl dt{
+    color:#000;
+    font-size:14px;
+    font-weight:900;
+    margin-top: 25px;
+    margin-bottom:20px;
+}
+.footer_dl dl dd{
+    margin-bottom:10px;;
+}
+.footer_dl dl dd a:hover{
+    color:#574B96;
+}
+.footer_dl .reglastdl{
+    margin:0;
+    width:290px;
+    height:194px;
+}
+.footer_dl .reglastdl dd{
+    margin:0;
+    width:290px;
+}
+.footer_dl .reglastdl dd div{
+    width:265px;
+    height:44px;
+    font:12px/22px "微软雅黑";
+    color:#000;
+}
+.footer_dl .reglastdl dd span{
+    display:block;
+    width:290px;
+    height:23px;
+}
+.footer_dl .reglastdl dd span a{
+    padding-right:65px;
+    line-height:23px;
+}
+
+                                                                /*蓝色条*/
+.footer_nav{
+    width:100%;
+    height:23px;
+    background:#463b7f;
+    padding:9px 0 7px 0;
+}
+.footer_navbox{
+    width:1200px;
+    height:25;
+    margin:0 auto;
+}
+.footer_navbox img{
+    display:block;
+    float:left;
+}
+.footer_navbox li span{
+    display:block;
+    float:left;
+    font:14px/23px "微软雅黑";
+    padding-left:5px;
+}
+.footer_navbox li{
+    float:left;
+    height:23px;
+    padding-left:100px;
+    color:#fff;
+}
+
+                                                                /*页面最底部*/
+.bottom{
+    width:100%;
+    height:230px;
+    background:#f5f5f5;
+}
+.bottom_center{
+    width:1200px;
+    height:230px;
+    margin: 0 auto;
+    position:relative;
+}
+.bottom_center .ul_1{
+    float: left;
+    margin-top: 20px;
+}
+.bottom_center .ul_1 li{
+    float:left;
+    color:#999;
+    margin-right:15px;
+}
+.bottom_center .ul_1 li:hover a{
+    color:#574B96;
+}
+.bottom_center .ul_2{
+    float: left;
+    margin-top: 20px;
+    clear:both;
+}
+.bottom_center .ul_2 li{
+    float:left;
+    margin-right: 15px;
+}
+.bottom_center .ul_3{
+    float: left;
+    margin-top: 20px;
+    clear:both;
+}
+.bottom_center .ul_3 li{
+    float:left;
+    margin-right: 15px;
+}
+.bottom_center .ul_3 li:hover a{
+    color:#574B96;
+}
+.bottom_center p{
+    float: left;
+    margin-top: 20px;
+    clear:both;
+}
+.bottom_center .ul_4{
+    float: left;
+    margin-top: 20px;
+    clear:both;
+}
+.bottom_center .ul_4 li{
+    float:left; 
+    margin-right: 15px;
+}
